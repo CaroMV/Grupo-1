@@ -1,0 +1,176 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4c56af;
+    padding: 1rem 2rem;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e9ecef;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-container button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #218838;
+}
+
+/* 2323323223 */
+.search-container i {
+    font-size: 1rem;
+}
+
+/* KALSKSAal */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #4c56af;
+}
+
+/* zxcvxcvzxcv nosé */
+.medicamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.medicamento:last-child {
+    border-bottom: none;
+}
+
+.medicamento img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.medicamento-info {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.medicamento-title {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+}
+
+.medicamento-description {
+    margin: 0.5rem 0;
+    color: #555;
+}
+
+.medicamento-price {
+    font-size: 1rem;
+    color: #ff1e8f;
+}
+
+/*ola */
+.doctor-select {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doctor-select label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.doctor-select select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 60%;
+}
+
+/* Bkompra */
+.btn-comprar {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #4c56af;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #ff1e8f;
+}

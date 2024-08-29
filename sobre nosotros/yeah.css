@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4c56af;
+    color: #fff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.eye {
+
+    background-color: #734991;
+    width: 40px;
+    height: 20px;
+    padding: 9px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e9ecef;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-container button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #218838;
+}
+
+/* Sección Sobre Nosotros */
+main {
+    padding: 2rem;
+}
+
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #4c56af;
+}
+
+.history, .mission-vision, .team, .certifications {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #ff1e8f;
+    padding-bottom: 0.5rem;
+}
+
+.history p {
+    line-height: 1.6;
+    color: #333
+}
+
+p {
+    line-height: 1.6;
+    color: whitesmoke;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

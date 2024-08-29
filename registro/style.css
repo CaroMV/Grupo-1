@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 698px) {
+    body {
+        background-image: url(img/Massanito1_01.webp);
+        background-position: center;
+        background-size: 100%;
+    }
+    .hero-section {
+        text-align: center;
+        padding: 50px 20px;
+        width: 115%;
+    }
+}
+
+#allcaps {
+
+    color: #4c56af;
+    padding-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container input[type="text"], .container input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c56af;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container input[type="submit"]:hover {
+    background-color: #ff1e8f;
+}

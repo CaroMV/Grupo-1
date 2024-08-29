@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Medicamentos</title>
+    <link rel="stylesheet" href="mafi.css">
+    <link rel="icon" type="image/x-icon" href="../favicon_io/favicon.ico">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../img/kkkk.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="../inicio/one.html">Inicio</a></li>
+            <li><a href="../preguntas/steel.html">Preguntas Frecuentes</a></li>
+            <li><a href="../testimonios/skulls.html">Testimonios</a></li>
+            <li><a href="pedido.html">Pedido</a></li>
+            <li><a href="traumatologo.html">Blog</a></li>
+            <li><a href="../medicamentos/five.html">Medicamento</a></li>
+            <li class="takelook"><a class="eye" href="../registro/registro.html"><i class="fa-solid fa-circle-user"></i>
+                    Registro</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Compra de Medicamentos</h1>
+
+        <div class="medicamento">
+            <img src="https://www.farmaloop.cl/_next/image/?url=https%3A%2F%2Fd35lrmue8i33t5.cloudfront.net%2Fproducts-image%2F91424.jpg&w=3840&q=75"
+                alt="Paracetamol">
+            <div class="medicamento-info">
+                <h2 class="medicamento-title">Paracetamol</h2>
+                <p class="medicamento-description">Alivia el dolor y reduce la fiebre.</p>
+                <p class="medicamento-price">$5.00</p>
+            </div>
+        </div>
+
+        <div class="medicamento">
+            <img src="https://www.farmaloop.cl/_next/image/?url=https%3A%2F%2Fd35lrmue8i33t5.cloudfront.net%2Fproducts-image%2F91424.jpg&w=3840&q=75"
+                alt="Ibuprofeno">
+            <div class="medicamento-info">
+                <h2 class="medicamento-title">Ibuprofeno</h2>
+                <p class="medicamento-description">Antiinflamatorio no esteroideo.</p>
+                <p class="medicamento-price">$7.00</p>
+            </div>
+        </div>
+
+        <div class="medicamento">
+            <img src="https://www.farmaciasahumada.cl/on/demandware.static/-/Sites-ahumada-master-catalog/default/dw31dc0f31/images/products/84418/84418.jpg"
+                alt="Amoxicilina">
+            <div class="medicamento-info">
+                <h2 class="medicamento-title">Amoxicilina</h2>
+                <p class="medicamento-description">Antibiótico de amplio espectro.</p>
+                <p class="medicamento-price">$12.00</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="medicamento-select">
+                <label for="medicamento">Seleccione un medicamento:</label>
+                <select id="medicamento" name="medicamento">
+                    <option value="">--Seleccione--</option>
+                    <option value="Paracetamol">Paracetamol</option>
+                    <option value="Ibuprofeno">Ibuprofeno</option>
+                    <option value="Amoxicilina">Amoxicilina</option>
+                </select>
+            </div>
+
+            <div class="doctor-select">
+                <label for="doctor">Seleccione al doctor:</label>
+                <select id="doctor" name="doctor">
+                    <option value="dr_lopez">Dr. Zack</option>
+                    <option value="dra_garcia">Dra. Alejandra</option>
+                    <option value="dr_martinez">Dr. Jirafales</option>
+                    <option value="dr_martinez">Dr. Brad</option>
+                </select>
+            </div>
+
+            <button class="btn-comprar" onclick="comprarReceta()">Comprar Receta</button>
+        </div>
+    </div>
+</body>
+<script>
+    function comprarReceta() {
+        const medicamentoSeleccionado = document.getElementById('medicamento').value;
+        if (medicamentoSeleccionado) {
+            alert('Compra exitosa de ' + medicamentoSeleccionado);
+        } else {
+            alert('Por favor, seleccione un medicamento.');
+        }
+    }
+</script>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+</html>
